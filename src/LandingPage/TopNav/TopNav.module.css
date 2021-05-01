@@ -1,0 +1,25 @@
+:root {
+  --element-sapcing: 1.5rem;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--element-sapcing);
+}
+
+.left > * {
+  margin-right: var(--element-sapcing);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right > * {
+  margin-left: var(--element-sapcing);
+  align-items: center;
+}
