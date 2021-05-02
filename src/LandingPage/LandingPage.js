@@ -1,7 +1,6 @@
 import { TopNav } from "./TopNav/TopNav";
 import logo from '../assets/logo.png';
-import styles from './LandingPage.module.css'
-import { SearchBar } from "./SearchBar/SearchBar";
+import { SearchBar } from "../SearchBar/SearchBar";
 import { SearchSuggestion } from "./SearchSuggestion/SearchSuggestion";
 
 function LandingPage() {

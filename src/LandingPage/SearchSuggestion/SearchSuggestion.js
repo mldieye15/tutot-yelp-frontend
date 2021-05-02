@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faSchool, faDiagnoses, faCompressArrowsAlt, faClipboardList } from '@fortawesome/free-solid-svg-icons';
+import { faSchool, faDiagnoses, faCompressArrowsAlt, faClipboardList } from '@fortawesome/free-solid-svg-icons';
 import styles from './SearchSuggestion.module.css';
 
 export function SearchSuggestion() {
