@@ -5,7 +5,6 @@ import brandImage from '../../assets/embleme.png';
 export function TopNav() {
 
     document.addEventListener('DOMContentLoaded', () => {
-
         // Get all "navbar-burger" elements
         const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
       
@@ -29,7 +28,19 @@ export function TopNav() {
         }
       
       });
-
+      {/* Menu avant utilisation de bulma
+        combiniason bulma et mon style: className={`select is-medium ${styles['red-start']}`}
+        <section className={styles['top-nav']}>
+            <div className={styles.left}>
+                <span>Tutorat</span>
+                <span>Modalit&eacute;</span>
+            </div>
+            <div className={styles.right}>
+                <span>Connexion</span>
+                <button className="button">Inscription</button>
+            </div>
+        </section>
+    */}
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
@@ -37,7 +48,7 @@ export function TopNav() {
                     <img src={brandImage} alt="Tutorat" width="28" height="28" />
                     Tutorat
                 </figure>
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -47,7 +58,7 @@ export function TopNav() {
 
             <div id="navbarBasicExample" className="navbar-menu">
                 <div className="navbar-start">
-                <a class="navbar-item" href="/aide">
+                <a className="navbar-item" href="/aide">
                     Aide
                 </a>
                 

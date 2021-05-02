@@ -1,0 +1,23 @@
+:global(span).red-start {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+  p .middle-search-bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px) {
+  /* <== You can change this break point as per your  needs */
+  .middle-search-bar {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
