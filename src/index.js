@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
+import './assets/mystyle.scss';
 
 ReactDOM.render(
   <React.StrictMode>
